@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    margin: 0 0 8px 0;
+}
+
+.overlap {
+    position: fixed;
+}
+
+p {
+    color: white;
+    font-size: 75px;
+}
+
+#score1 {
+    margin: 0 343px;
+}
+
+#score2 {
+    margin: 0 415px;
+}

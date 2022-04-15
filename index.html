@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pong</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <h1>Pong</h1>
+        <canvas id="canvas" class="overlap" width="800" height="450" onmousemove="paddle1.change_pos(event);"></canvas>
+        <p id="score1" class="overlap">0</p>
+        <p id="score2" class="overlap">0</p>
+        <script src="paddle.js"></script>
+        <script src="ball.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
